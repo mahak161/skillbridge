@@ -4,9 +4,9 @@ import numpy as np
 
 
 # Load trained files
-model = joblib.load("models/career_predictor.pkl")
-encoder = joblib.load("models/label_encoder.pkl")
-vectorizer = joblib.load("models/vectorizer.pkl")
+model = joblib.load("SkillBridge/models/career_predictor.pkl")
+encoder = joblib.load("SkillBridge/models/label_encoder.pkl")
+vectorizer = joblib.load("SkillBridge/models/vectorizer.pkl")
 
 st.set_page_config(
     page_title="SkillBridge ",
